@@ -1,7 +1,14 @@
 <!DOCTYPE html>
 <html>
-<head><title>Hello</title></head>
+<head><title>Cross-origin data storage access</title></head>
 <body>
-  <h1>Hello World!</h1>
+
+	<h1>Test iframe loading js subloading another js</h1>
+
+	<iframe 
+		src='iframe-page.html'
+		sandbox="allow-same-origin allow-scripts allow-popups allow-modals allow-forms allow-popups-to-escape-sandbox"
+	></iframe>
+
 </body>
 </html>
