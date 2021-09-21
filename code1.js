@@ -34,7 +34,7 @@
 	}
 
 	document.addEventListener("DOMContentLoaded", function(event) { 
-		loadScript("code2.js", 
+		loadScript("https://chrisribe.github.io/dud-page/code2.js", 
 			function(){
 				console.log('code 2 was init!');
 			}, 
